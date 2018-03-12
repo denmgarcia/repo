@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'myproject',
         'USER': 'myprojectuser',
         'PASSWORD': 'password',
-        'HOST': '',
+        'HOST': 'mysqldb',
         'PORT': '3306',
     }
 }

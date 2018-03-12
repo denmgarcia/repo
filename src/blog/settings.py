@@ -25,7 +25,7 @@ SECRET_KEY = '1_fs=!w2_3340swpxk2v&=$7!99ww8wb7=$x@)=j159%y%-482'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['webapp']
 
 
 # Application definition
@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'myproject',
         'USER': 'myprojectuser',
         'PASSWORD': 'password',
-        'HOST': '192.168.0.13',
+        'HOST': '',
         'PORT': '3306',
     }
 }

@@ -23,7 +23,10 @@ services:
             - "8000"
             
     mysqldb:
-        image: mysql
+        image: mysql:5.7
         container_name: mysql
         environment:
-            MYSQL_ROOT_PASSWORD: password
+            - MYSQL_ROOT_PASSWORD=secret
+            - MYSQL_USER=myprojectuser
+            - MYSQL_PASSWORD=password
+            - MYSQL_DATABASE=myproject

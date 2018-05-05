@@ -14,7 +14,8 @@ Here we will enter mysql inside dockerized mysql
 
 > mysql -u root -p
 
->GRANT ALL PRIVILEGES ON myproject.* TO 'myprojectuser'@'%';
+>GRANT ALL PRIVILEGES ON myproject.* TO 'myprojectuser'@'%';  
+
 >FLUSH PRIVILEGES;
 
 This command allow django to connect to mysql
